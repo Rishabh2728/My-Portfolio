@@ -14,6 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #F5F5F5;
 }
 
 .nav-logo{
@@ -70,3 +71,119 @@ body{
     cursor: pointer;
 }
 
+.hero-section{
+    background-color: #E0E0FB;
+    height: 620px;
+    border-bottom: 2px solid black;
+}
+
+.hero-content{
+    padding: 0px 0px 0px 150px;
+}
+
+.hero-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.hero-content h1{
+    font-size: 46px; 
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 24px 0;
+}
+.hero-content p{
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 0;
+}
+
+.image-background{
+    width: 360px;
+    height: 450px;
+    background-color: #A494C6; 
+    border-radius: 180px 180px 0px 0px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;      
+}
+
+.hero-section h1{
+    margin: 0px;
+}
+
+.hero-hello{
+    display: flex;
+    justify-content: center;
+    background-color: #DCE9F1;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.hero-work{
+    display: flex;
+    justify-content: center;
+    width: 115px;
+    background-color: #F5F5F5;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.about-me{
+    /* display: flex;
+    justify-content: center; */
+    background-color: #F5F5F5;
+    height: 680px;
+    border-bottom: 2px solid black;
+}
+
+.about-content-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-header{
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+    margin: 0 auto 0px auto;
+    background-color: #DCE9F1;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 20px 0px 20px 20px;
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.about-all{
+    border: 2px solid black;
+    border-radius: 20px 0px 20px 20px;
+    padding: 20px;
+    /* background-color: #E3E3FF; */
+}
+
+.about-1{
+    background-color: #E3E3FF;
+}
+.about-2{
+    background-color: #F2FFE3;
+}
+.about-3{
+    background-color: #FFE3FA;
+}
+.about-4{
+    background-color: #E5F3FF;
+}
