@@ -141,8 +141,9 @@ body{
     /* display: flex;
     justify-content: center; */
     background-color: #F5F5F5;
-    height: 680px;
+    height: 800px;
     border-bottom: 2px solid black;
+    position: relative;
 }
 
 .about-content-container{
@@ -186,4 +187,51 @@ body{
 }
 .about-4{
     background-color: #E5F3FF;
+}
+
+.edu-float{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: -110px;
+    transform: translate(-50%);
+    z-index: 20;
+    width: min(800px);
+    background-color: #F5F5F5;
+    border: 2px solid black;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.edu-item{
+    text-align: center;
+}
+
+.skills{
+    display: flex;  
+    justify-content: center;
+    align-items:flex-start;
+    background-color: #E0E0FB;
+    height: 690px;
+    border-bottom: 2px solid black;
+}
+
+.skills-header{
+    display: flex;
+    justify-content: center;
+    background-color: #DCE9F1;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+    line-height: 2;
+}
+
+.skills-outer-container{
+    padding-top: 150px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
 }
