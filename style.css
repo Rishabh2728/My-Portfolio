@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+    width: 100%;
+    color: black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    margin-left: 30px;
+    letter-spacing: 0.5px;
+}
+
+.nav-logo:hover{
+    color: #8573A8;
+}
+
+.navigation-menu{
+    display: flex;
+    color: black;
+    gap: 15px;
+}
+
+.page-navigation:hover{
+    color: #8573A8;
+    border-color: #8573A8;
+    cursor: pointer;
+}
+
+.navigation-menu i{
+    text-decoration: none;
+}
+
+.social-icons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+.social-icons i {
+    color: black;
+    width: 36px;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 16px;
+}
+.social-icons i:hover{
+    color: #8573A8;
+    border-color: #8573A8;
+    cursor: pointer;
+}
+
