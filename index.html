@@ -121,6 +121,11 @@
                 </p>
             </div>
 
+          <div class = "image-background">
+                <div class = "my-image">
+                    <img src = "images/image.png">
+                </div>
+          </div>
         </div>
     </div>
 
@@ -270,112 +275,135 @@
                 </div>
             </div>
 
-            <!-- PROJECT 2 : ACADEMIC BURNOUT -->
-            <div class="burnout-project">
-                <div class="project-image">
-                    <img src="images/burnout.png" alt="Academic Burnout Prediction">
+    <div class="projects-page">
+            <div class="projects-container">
+
+                <div class="projects-header">☀︎ Projects</div>
+
+                <div class="projects-container-title">
+                <h2>Things I've Built</h2>
+                <p>
+                    A curated collection of projects reflecting my learning journey and passion for software development.
+                </p>
                 </div>
 
-                <div class="burnout-content">
+                <div class="projects-grid">
+
+                <!-- 1) DataGen -->
+                <div class="datagen-cli">
+                    <div class="project-image">
+                    <img src="images/datagen.png" alt="DataGen-CLI Image">
+                    </div>
+                    <div class="datagen-content">
+                    <h3 class="datagen-title">DataGen-CLI</h3>
+                    <p class="project-case">
+                        A command-line tool built to solve the lack of readily available datasets
+                        during early-stage development by generating customizable synthetic data
+                        for testing and prototyping.
+                    </p>
+                    <ul class="project-solution">
+                        <li>Eliminated dependency on real datasets</li>
+                        <li>Enabled fast testing and prototyping</li>
+                        <li>Improved developer productivity</li>
+                    </ul>
+                    <div class="project-tech">Python · CLI · Data Processing · Open Source</div>
+                    <div class="project-links">
+                        <a href="https://github.com/Rishabh2728/datagen-cli" target="_blank">GitHub</a>
+                        <a href="https://pypi.org/project/datagen-cli/" target="_blank">PyPI</a>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- 2) Burnout -->
+                <div class="burnout-project">
+                    <div class="project-image">
+                    <img src="images/burnout.png" alt="Academic Burnout Prediction Project">
+                    </div>
+                    <div class="burnout-content">
                     <h3 class="burnout-title">Academic Burnout Prediction</h3>
-
                     <p class="project-case">
-                        A machine learning project designed to predict academic burnout risk
-                        using student-related behavioral and academic factors. The goal was
-                        to identify early warning signs and support preventive interventions.
+                        A machine learning project designed to predict academic burnout risk using student-related factors.
+                        It helps identify early warning signs so support and interventions can be planned effectively.
                     </p>
-
                     <ul class="project-solution">
-                        <li>Predicted burnout risk using supervised ML models</li>
-                        <li>Performed data preprocessing, feature selection, and scaling</li>
-                        <li>Compared multiple models using evaluation metrics</li>
-                        <li>Presented insights through clear visualizations</li>
+                        <li>Predicted burnout risk based on key student factors</li>
+                        <li>Compared models and evaluated using performance metrics</li>
+                        <li>Delivered insights through clear visual summaries</li>
                     </ul>
-
                     <div class="project-tech">
-                        Python · Pandas · NumPy · Scikit-learn · Matplotlib · ML Classification
+                        Python · Pandas · Scikit-learn · Matplotlib · ML Classification
                     </div>
-
                     <div class="project-links">
                         <a href="#" target="_blank">GitHub</a>
                         <a href="#" target="_blank">Report</a>
                     </div>
-                </div>
-            </div>
-
-            <!-- PROJECT 3 : FAKE TWITTER ACCOUNT DETECTOR -->
-            <div class="twitter-detector-project">
-                <div class="project-image">
-                    <img src="images/twitter.png" alt="Fake Twitter Account Detector">
+                    </div>
                 </div>
 
-                <div class="twitter-detector-content">
+                <!-- 3) Twitter Detector -->
+                <div class="twitter-detector-project">
+                    <div class="project-image">
+                    <img src="images/twitter.png" alt="Fake Twitter Account Detector Project">
+                    </div>
+                    <div class="twitter-detector-content">
                     <h3 class="twitter-detector-title">Fake Twitter Account Detector</h3>
-
                     <p class="project-case">
-                        A machine learning based system developed to identify fake or suspicious
-                        Twitter accounts using profile information and activity-based features.
-                        The project aimed to improve trust and reliability in social media data.
+                        A machine learning project built to detect suspicious or fake Twitter accounts using profile
+                        and activity-based features. It helps filter spam accounts and improves trust in social media data.
                     </p>
-
                     <ul class="project-solution">
-                        <li>Classified accounts as genuine or fake using ML models</li>
-                        <li>Performed data cleaning and feature engineering</li>
-                        <li>Evaluated models using precision, recall, and F1-score</li>
-                        <li>Handled class imbalance for better predictions</li>
+                        <li>Trained classification models to label accounts as genuine or fake</li>
+                        <li>Performed data cleaning, feature selection, and model evaluation</li>
+                        <li>Used metrics like precision, recall, and F1-score for reliable results</li>
                     </ul>
-
                     <div class="project-tech">
-                        Python · Pandas · Scikit-learn · Classification · Evaluation Metrics
+                        Python · Pandas · Scikit-learn · Classification · Metrics
                     </div>
-
                     <div class="project-links">
                         <a href="#" target="_blank">GitHub</a>
                         <a href="#" target="_blank">Report</a>
                     </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- PROJECT 4 : SPOTIFY DASHBOARD -->
-            <div class="spotify-dashboard-project">
-                <div class="project-image">
-                    <img src="images/spotify.jpeg" alt="Spotify Power BI Dashboard">
-                </div>
-
-                <div class="spotify-dashboard-content">
+                <!-- 4) Spotify Dashboard -->
+                <div class="spotify-dashboard-project">
+                    <div class="project-image">
+                    <img src="images/spotify.jpeg" alt="Spotify Dashboard Power BI Project">
+                    </div>
+                    <div class="spotify-dashboard-content">
                     <h3 class="spotify-dashboard-title">Spotify Dashboard (Power BI)</h3>
-
                     <p class="project-case">
                         An interactive Power BI dashboard built to analyze Spotify listening
                         behavior and music trends. The dashboard transforms raw data into
                         meaningful KPIs and visual insights.
                     </p>
-
                     <ul class="project-solution">
                         <li>Built interactive dashboards with slicers and KPI cards</li>
                         <li>Used Power Query for data cleaning and transformation</li>
                         <li>Created DAX measures for rankings, totals, and trends</li>
                         <li>Delivered insights through clean and intuitive visuals</li>
                     </ul>
-
                     <div class="project-tech">
                         Power BI · Power Query · DAX · Data Visualization · Dashboarding
                     </div>
-
                     <div class="project-links">
                         <a href="#" target="_blank">Dashboard</a>
                         <a href="#" target="_blank">Report</a>
                     </div>
+                    </div>
                 </div>
-            </div>
+
+                </div> 
+
+            </div> 
+            </div> 
+
 
         </div>
     </div>
-</div>
-
-
-<!-- CONTACT -->
-<div class="contact-page" id = "contact">
+    <div class="contact-page">
     <div class="contact-container">
 
         <div class="contact-header">☀︎ Contact</div>
@@ -393,27 +421,53 @@
               method="post"
               enctype="text/plain">
 
-            <div class="form-group"><input type="text" placeholder="Your Name"></div>
-            <div class="form-group"><input type="email" placeholder="Your Email"></div>
-            <div class="form-group"><input type="text" placeholder="Subject"></div>
-            <div class="form-group"><textarea placeholder="Your Message"></textarea></div>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
 
-            <button type="submit" class="contact-btn">Send Message</button>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="form-group">
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="contact-btn">
+                Send Message
+            </button>
+
         </form>
     </div>
 </div>
-
-<!-- FOOTER -->
 <div class="footer">
     <div class="footer-container">
-        <div class="footer-text">Created by <span>Rishabh Kumar</span></div>
-        <div class="footer-socials">
-            <a href="https://github.com/Rishabh2728"><i class="fa-brands fa-github"></i></a>
-            <a href="https://linkedin.com/in/kurishabh"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="mailto:rishabh27kumar2006@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+        <div class="footer-text">
+            Created by <span>Rishabh Kumar</span>
         </div>
+
+        <div class="footer-socials">
+            <a href="https://github.com/Rishabh2728" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/kurishabh" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="mailto:rishabh27kumar2006@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+
     </div>
 </div>
+
 
 </body>
 </html>
