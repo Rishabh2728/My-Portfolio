@@ -634,3 +634,46 @@ body{
     grid-template-columns: 1fr;
   }
 }
+
+/* HAMBURGER */
+.hamburger{
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span{
+  width: 22px;
+  height: 2px;
+  background-color: black;
+  display: block;
+}
+
+/* MOBILE NAV */
+@media (max-width: 768px){
+  .hamburger{
+    display: flex;
+  }
+
+  .navigation-menu{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 0;
+  }
+
+  .navigation-menu.active{
+    display: flex;
+  }
+
+  #navbar{
+    justify-content: space-between;
+  }
+
+  .social-icons{
+    display: none;
+  }
+}
