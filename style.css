@@ -209,29 +209,72 @@ body{
 }
 
 .skills{
-    display: flex;  
-    justify-content: center;
-    align-items:flex-start;
+    padding: 120px 0;  
     background-color: #E0E0FB;
-    height: 690px;
     border-bottom: 2px solid black;
 }
 
-.skills-header{
+.skills-outer-container{
+    width: min(1100px,90%);
+    margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.skills-header{
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
+    padding: 6px 16px;
     background-color: #DCE9F1;
-    width: 100px;
     border: 2px solid black;
     border-radius: 20px 20px 20px 20px;
-    line-height: 2;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.skills-outer-container{
-    padding-top: 150px;
-}
 
 .skills-container{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 24px;
+}
+
+.my-skills{
+    flex:1;
+    max-width: 260px;
+    background-color: #F5F5F5;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 28px 20px;
+    text-align: left;
+}
+
+.my-sills-h3{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.focus-areas{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #F5F5F5;
+}
+
+.skill-1{
+    background-color: #F3FFE3;
+}
+
+.skill-2{
+    background-color: #FDE4F9;
+}
+.skill-3{
+    background-color: #FFEEEB;
+}
+.skill-4{
+    background-color: #E5F3FF;
 }
