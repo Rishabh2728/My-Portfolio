@@ -1,5 +1,7 @@
 # Rishabh Kumar Portfolio
 
+https://my-portfolio-uzer.onrender.com/
+
 A responsive personal portfolio website built with plain HTML, CSS, and JavaScript.
 
 It includes a custom hero section, animated section reveals, a floating education bar, a mobile sidebar navigation, interactive project cards, and decorative UI elements designed for a modern portfolio look.
@@ -23,12 +25,6 @@ Portfolio/
 |-- images/
 ```
 
-## Run Locally
-
-This is a static website, so no build step is required.
-
-1. Open [index.html](C:/Users/Rishabh/Desktop/Projects/Portfolio/index.html) directly in your browser.
-2. Or use a local live server from your editor for easier preview while editing.
 
 ## Main Sections
 
@@ -57,7 +53,7 @@ This is a static website, so no build step is required.
 
 ### Content
 
-Edit [index.html](C:/Users/Rishabh/Desktop/Projects/Portfolio/index.html) to update:
+Edit [index.html] to update:
 
 - name and hero text
 - about cards
@@ -68,7 +64,7 @@ Edit [index.html](C:/Users/Rishabh/Desktop/Projects/Portfolio/index.html) to upd
 
 ### Styling
 
-Edit [style.css](C:/Users/Rishabh/Desktop/Projects/Portfolio/style.css) to update:
+Edit [style.css] to update:
 
 - colors
 - spacing
@@ -79,7 +75,7 @@ Edit [style.css](C:/Users/Rishabh/Desktop/Projects/Portfolio/style.css) to updat
 
 ### Interactions
 
-Edit [script.js](C:/Users/Rishabh/Desktop/Projects/Portfolio/script.js) to update:
+Edit [script.js] to update:
 
 - typing effect speed and sequence
 - greeting logic
@@ -96,22 +92,18 @@ The site currently uses:
 - Google Fonts for `Inter`
 - Fontshare for `Cabinet Grotesk`
 
-These are loaded from CDNs in [index.html](C:/Users/Rishabh/Desktop/Projects/Portfolio/index.html).
+These are loaded from CDNs in [index.html].
 
 ## Customization Notes
 
 - Replace project image links with your own live/demo URLs if needed.
 - Replace social links in the navbar and footer with your preferred platforms.
 - Update images inside the `images/` folder as needed.
-- If you change section ids, also update the navbar anchor links and scroll-tracking logic in [script.js](C:/Users/Rishabh/Desktop/Projects/Portfolio/script.js).
+- If you change section ids, also update the navbar anchor links and scroll-tracking logic in [script.js].
 
 ## Deployment
 
-You can deploy this portfolio on any static hosting platform, such as:
-
-- GitHub Pages
-- Netlify
-- Vercel
+- Render -> https://my-portfolio-uzer.onrender.com/
 
 ## License
 
