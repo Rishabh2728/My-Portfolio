@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rishabh Kumar</title>
 
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800,900&display=swap">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -17,12 +18,12 @@
     <div class="nav-logo">Rishabh</div>
 
     <div class="navigation-menu">
-        <a class="page-navigation" href = #home>Home</a>
-        <a class="page-navigation" href = #about>About</a>
-        <a class="page-navigation" href = "#education">Education</a>
-        <a class="page-navigation" href = "#skills">Skills</a>
-        <a class="page-navigation" href = "#projects">Projects</a>
-        <a class="page-navigation" href = "#contact">Contact</a>
+        <a class="page-navigation" href="#home">Home</a>
+        <a class="page-navigation" href="#about">About</a>
+        <a class="page-navigation" href="#education">Education</a>
+        <a class="page-navigation" href="#skills">Skills</a>
+        <a class="page-navigation" href="#projects">Projects</a>
+        <a class="page-navigation" href="#contact">Contact</a>
     </div>
 
     <div class="hamburger" id="hamburger">
@@ -31,47 +32,82 @@
         <span></span>
     </div>
 
-
     <div class="social-icons">
-        <a href="https://github.com/Rishabh2728" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://linkedin.com/in/kurishabh" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Rishabh2728" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/kurishabh" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="mailto:rishabh27kumar2006@gmail.com"><i class="fa-solid fa-envelope"></i></a>
     </div>
 </div>
 
 <!-- HERO -->
-<div class="hero-section" id = "home">
+<div class="hero-section reveal-section" id="home">
+    <div class="hero-sparkles" aria-hidden="true">
+        <span class="hero-sparkle hero-sparkle-large"></span>
+        <span class="hero-sparkle hero-sparkle-small"></span>
+    </div>
     <div class="hero-container">
+        <div class="hero-content reveal-item delay-1">
+            <div class="hero-hello hero-intro-hidden" id="hero-hello"><span>Hello!</span></div><br>
 
-        <div class="hero-content">
-            <div class="hero-hello"><pre> ☀︎ Hello! </pre></div><br>
-
-            <h1>I'm Rishabh Kumar,<br> a software developer.</h1><br>
+            <h1>
+                <span class="typing-line typing-heading" data-text="I'm Rishabh Kumar,"></span><br>
+                <span class="typing-line typing-heading" data-text=" a software developer."></span>
+            </h1><br>
 
             <p>
-                I'm an aspiring software developer based in India.<br>
-                I'm very passionate about the work that I do.
+                <span class="typing-line typing-body" data-text="I'm an aspiring software developer based in India."></span><br>
+                <span class="typing-line typing-body" data-text="I'm very passionate about the work that I do."></span>
             </p><br>
 
-            <div class="hero-work">See My Works</div>
+            <a class="hero-work hero-intro-hidden" id="hero-work" href="#projects">See My Works</a>
         </div>
 
-        <div class="image-background">
+        <div class="image-frame reveal-item delay-2">
+            <div class="hero-wave-doodle" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="hero-orbit-badge" aria-hidden="true">
+                <svg viewBox="0 0 120 120" role="img">
+                    <defs>
+                        <path id="hero-badge-text-path" d="M 60,60 m -31,0 a 31,31 0 1,1 62,0 a 31,31 0 1,1 -62,0"></path>
+                    </defs>
+                    <circle cx="60" cy="60" r="44"></circle>
+                    <text textLength="196" lengthAdjust="spacingAndGlyphs">
+                        <textPath href="#hero-badge-text-path" startOffset="50%">
+                            I'M RISHABH • I'M RISHABH •
+                        </textPath>
+                    </text>
+                    <g class="hero-badge-arrow">
+                        <path d="M 48 70 C 52 61, 58 55, 64 52 C 69 49, 74 48, 79 49"></path>
+                        <path d="M 73 45 L 79 49 L 71 53"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="image-background">
             <div class="my-image">
                 <img src="images/image.png" alt="My Image">
             </div>
+            </div>
         </div>
-
     </div>
 </div>
 
 <!-- ABOUT -->
-<div class="about-me">
-    <div class="about-container" id = "about"><br><br>
+<div class="about-me reveal-section">
+    <div class="about-thunder-wrap" aria-hidden="true">
+        <span class="about-thunder"></span>
+    </div>
+    <div class="about-sparkles" aria-hidden="true">
+        <span class="about-sparkle about-sparkle-large"></span>
+        <span class="about-sparkle about-sparkle-small"></span>
+    </div>
+    <div class="about-container" id="about"><br><br>
 
-        <div class="about-header">☀︎ About Me</div>
+        <div class="about-header reveal-item">About Me</div>
 
-        <div class="about-heading">
+        <div class="about-heading reveal-item delay-1">
             <h2>
                 A quick overview of who I am,<br>
                 what I do, and where I'm headed.
@@ -80,7 +116,7 @@
 
         <div class="about-content-container">
 
-            <div class="about-all about-1">
+            <div class="about-all about-1 reveal-item">
                 <div class="about-card-header">
                     <div class="about-icon"><i class="fa-solid fa-user"></i></div>
                     <h3>Who I Am</h3>
@@ -92,7 +128,7 @@
                 </p>
             </div>
 
-            <div class="about-all about-2">
+            <div class="about-all about-2 reveal-item delay-1">
                 <div class="about-card-header">
                     <div class="about-icon"><i class="fa-solid fa-code"></i></div>
                     <h3>What I Do</h3>
@@ -104,7 +140,7 @@
                 </p>
             </div>
 
-            <div class="about-all about-3">
+            <div class="about-all about-3 reveal-item delay-2">
                 <div class="about-card-header">
                     <div class="about-icon"><i class="fa-solid fa-book-open"></i></div>
                     <h3>How I Learn</h3>
@@ -116,7 +152,7 @@
                 </p>
             </div>
 
-            <div class="about-all about-4">
+            <div class="about-all about-4 reveal-item delay-3">
                 <div class="about-card-header">
                     <div class="about-icon"><i class="fa-solid fa-bullseye"></i></div>
                     <h3>My Goals</h3>
@@ -131,48 +167,54 @@
         </div>
     </div>
 
-    <!-- EDUCATION FLOAT -->
-     <div id = "education"></div>
-    <div class="edu-float">
+    <div id="education"></div>
+    <div class="edu-float reveal-item delay-2">
         <div class="edu-item">
             <h3>Lovely Professional University</h3>
             <h3>B.Tech CSE</h3>
         </div>
         <div class="edu-item">
-            <h2>2027</h2>
+            <h2 class="edu-count" data-count="2027">2027</h2>
             <h4>Graduating Year</h4>
         </div>
         <div class="edu-item">
-            <h2>7.8</h2>
+            <h2 class="edu-count" data-count="7.8">7.8</h2>
             <h4>Cumulative GPA</h4>
         </div>
         <div class="edu-item">
-            <h2>15+</h2>
+            <h2 class="edu-count" data-count="15" data-suffix="+">15+</h2>
             <h4>Projects Completed</h4>
         </div>
         <div class="edu-item">
-            <h2>400+</h2>
+            <h2 class="edu-count" data-count="400" data-suffix="+">400+</h2>
             <h4>Problems Solved</h4>
         </div>
     </div>
 </div>
 
 <!-- SKILLS -->
-<div class="skills">
-    <div  id = "skills"></div>
+<div class="skills reveal-section">
+    <div id="skills"></div>
     <div class="skills-outer-container">
 
-        <div class="skills-header">☀︎ Skills</div>
+        <div class="skills-header reveal-item">Skills</div>
+        <div class="skills-title reveal-item delay-1">
+            <h2>Core strengths I keep building through projects and practice.</h2>
+            <p>Each area below reflects where I spend the most time learning, shipping, and improving my technical foundation.</p>
+        </div>
 
         <div class="skills-container">
 
-            <div class="my-skills skill-1">
+            <div class="my-skills skill-1 reveal-item">
+                <div class="skill-topline">
+                    <span class="skill-symbol"><i class="fa-solid fa-brain"></i></span>
+                </div>
                 <h3>Machine Learning</h3>
                 <p>
                     I work with machine learning concepts such as data preprocessing, feature engineering, and model training. I enjoy solving real-world problems.
                 </p>
                 <div class="focus-areas">
-                    <p><strong>Focus areas:</strong></p>
+                    <p><strong>Focus areas</strong></p>
                     <ul>
                         <li>Advanced data preprocessing</li>
                         <li>Solving real-world issues</li>
@@ -181,13 +223,16 @@
                 </div>
             </div>
 
-            <div class="my-skills skill-2">
+            <div class="my-skills skill-2 reveal-item delay-1">
+                <div class="skill-topline">
+                    <span class="skill-symbol"><i class="fa-solid fa-code"></i></span>
+                </div>
                 <h3>Web Development</h3>
                 <p>
                     I build responsive and user-friendly web applications using modern frontend and backend technologies.My focus is on clean UI design and structured code.
                 </p>
                 <div class="focus-areas">
-                    <p><strong>Focus areas:</strong></p>
+                    <p><strong>Focus areas</strong></p>
                     <ul>
                         <li>Responsive UI development</li>
                         <li>RESTful APIs & backend logic</li>
@@ -196,27 +241,34 @@
                 </div>
             </div>
 
-            <div class="my-skills skill-3">
+            <div class="my-skills skill-3 reveal-item delay-2">
+                <div class="skill-topline">
+                    <span class="skill-symbol"><i class="fa-solid fa-cloud"></i></span>
+                </div>
                 <h3>Cloud Computing</h3>
                 <p>
                     I have a foundational understanding of cloud platforms and services, including deployment, virtualization, and resource management.
                 </p>
                 <div class="focus-areas">
-                    <p><strong>Focus areas:</strong></p>
+                    <p><strong>Focus areas</strong></p>
                     <ul>
                         <li>Cloud fundamentals & virtualization</li>
                         <li>Deployment and resource management</li>
+                        <li>Scalable infrastructure basics</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="my-skills skill-4">
+            <div class="my-skills skill-4 reveal-item delay-3">
+                <div class="skill-topline">
+                    <span class="skill-symbol"><i class="fa-solid fa-diagram-project"></i></span>
+                </div>
                 <h3>Data Structures</h3>
                 <p>
                     I regularly practice writing efficient, optimized solutions and improving time and space complexity through continuous practice.
                 </p>
                 <div class="focus-areas">
-                    <p><strong>Focus areas:</strong></p>
+                    <p><strong>Focus areas</strong></p>
                     <ul>
                         <li>Arrays, linked lists, stacks & queues</li>
                         <li>Recursion, trees, and graphs</li>
@@ -230,12 +282,16 @@
 </div>
 
 <!-- PROJECTS -->
-<div class="projects-page" id = "projects">
+<div class="projects-page reveal-section" id="projects">
+    <div class="projects-doodles" aria-hidden="true">
+        <span class="projects-doodle projects-doodle-star"></span>
+        <span class="projects-doodle projects-doodle-thunder"></span>
+    </div>
     <div class="projects-container">
 
-        <div class="projects-header">☀︎ Projects</div>
+        <div class="projects-header reveal-item">Projects</div>
 
-        <div class="projects-container-title">
+        <div class="projects-container-title reveal-item delay-1">
             <h2>Things I've Built</h2>
             <p>
                 A curated collection of projects reflecting my learning journey
@@ -245,149 +301,95 @@
 
         <div class="projects-grid">
 
-            <!-- PROJECT 1 : DATAGEN CLI -->
-            <div class="datagen-cli">
-                <div class="project-image">
+            <div class="datagen-cli reveal-item">
+                <a class="project-image" href="https://github.com/Rishabh2728" target="_blank" rel="noreferrer">
                     <img src="images/datagen.png" alt="DataGen-CLI Project">
-                </div>
+                </a>
 
                 <div class="datagen-content">
                     <h3 class="datagen-title">DataGen-CLI</h3>
 
                     <p class="project-case">
-                        A command-line tool built to solve the lack of readily available datasets
-                        during early-stage development by generating customizable synthetic data
-                        for testing and prototyping.
+                        A synthetic dataset generator built for faster prototyping, easier test setup, and cleaner developer workflows.
                     </p>
-
-                    <ul class="project-solution">
-                        <li>Eliminated dependency on real datasets</li>
-                        <li>Enabled fast testing and prototyping</li>
-                        <li>Improved developer productivity</li>
-                    </ul>
 
                     <div class="project-tech">
                         Python · CLI · Data Processing · Open Source
                     </div>
 
-                    <div class="project-links">
-                        <a href="https://github.com/Rishabh2728/datagen-cli" target="_blank">GitHub</a>
-                        <a href="https://pypi.org/project/datagen-cli/" target="_blank">PyPI</a>
-                    </div>
                 </div>
             </div>
 
-            <!-- PROJECT 2 : ACADEMIC BURNOUT -->
-            <div class="burnout-project">
-                <div class="project-image">
+            <div class="burnout-project reveal-item delay-1">
+                <a class="project-image" href="https://github.com/Rishabh2728" target="_blank" rel="noreferrer">
                     <img src="images/burnout.png" alt="Academic Burnout Prediction">
-                </div>
+                </a>
 
                 <div class="burnout-content">
                     <h3 class="burnout-title">Academic Burnout Prediction</h3>
 
                     <p class="project-case">
-                        A machine learning project designed to predict academic burnout risk
-                        using student-related behavioral and academic factors. The goal was
-                        to identify early warning signs and support preventive interventions.
+                        A machine learning project focused on spotting burnout risk from student behavior and academic signals at an earlier stage.
                     </p>
-
-                    <ul class="project-solution">
-                        <li>Predicted burnout risk using supervised ML models</li>
-                        <li>Performed data preprocessing, feature selection, and scaling</li>
-                        <li>Compared multiple models using evaluation metrics</li>
-                        <li>Presented insights through clear visualizations</li>
-                    </ul>
 
                     <div class="project-tech">
                         Python · Pandas · NumPy · Scikit-learn · Matplotlib · ML Classification
                     </div>
 
-                    <div class="project-links">
-                        <a href="#" target="_blank">GitHub</a>
-                        <a href="#" target="_blank">Report</a>
-                    </div>
                 </div>
             </div>
 
-            <!-- PROJECT 3 : FAKE TWITTER ACCOUNT DETECTOR -->
-            <div class="twitter-detector-project">
-                <div class="project-image">
+            <div class="twitter-detector-project reveal-item delay-2">
+                <a class="project-image" href="https://github.com/Rishabh2728" target="_blank" rel="noreferrer">
                     <img src="images/twitter.png" alt="Fake Twitter Account Detector">
-                </div>
+                </a>
 
                 <div class="twitter-detector-content">
                     <h3 class="twitter-detector-title">Fake Twitter Account Detector</h3>
 
                     <p class="project-case">
-                        A machine learning based system developed to identify fake or suspicious
-                        Twitter accounts using profile information and activity-based features.
-                        The project aimed to improve trust and reliability in social media data.
+                        A classification system that identifies suspicious social accounts using profile and activity-based signals for cleaner platform data.
                     </p>
-
-                    <ul class="project-solution">
-                        <li>Classified accounts as genuine or fake using ML models</li>
-                        <li>Performed data cleaning and feature engineering</li>
-                        <li>Evaluated models using precision, recall, and F1-score</li>
-                        <li>Handled class imbalance for better predictions</li>
-                    </ul>
 
                     <div class="project-tech">
                         Python · Pandas · Scikit-learn · Classification · Evaluation Metrics
                     </div>
 
-                    <div class="project-links">
-                        <a href="#" target="_blank">GitHub</a>
-                        <a href="#" target="_blank">Report</a>
-                    </div>
                 </div>
             </div>
 
-            <!-- PROJECT 4 : SPOTIFY DASHBOARD -->
-            <div class="spotify-dashboard-project">
-                <div class="project-image">
+            <div class="spotify-dashboard-project reveal-item delay-3">
+                <a class="project-image" href="https://github.com/Rishabh2728" target="_blank" rel="noreferrer">
                     <img src="images/spotify.jpeg" alt="Spotify Power BI Dashboard">
-                </div>
+                </a>
 
                 <div class="spotify-dashboard-content">
                     <h3 class="spotify-dashboard-title">Spotify Dashboard (Power BI)</h3>
 
                     <p class="project-case">
-                        An interactive Power BI dashboard built to analyze Spotify listening
-                        behavior and music trends. The dashboard transforms raw data into
-                        meaningful KPIs and visual insights.
+                        An interactive Power BI dashboard that turns listening behavior into clean KPIs, rankings, and trend-focused visual insights.
                     </p>
-
-                    <ul class="project-solution">
-                        <li>Built interactive dashboards with slicers and KPI cards</li>
-                        <li>Used Power Query for data cleaning and transformation</li>
-                        <li>Created DAX measures for rankings, totals, and trends</li>
-                        <li>Delivered insights through clean and intuitive visuals</li>
-                    </ul>
 
                     <div class="project-tech">
                         Power BI · Power Query · DAX · Data Visualization · Dashboarding
                     </div>
 
-                    <div class="project-links">
-                        <a href="#" target="_blank">Dashboard</a>
-                        <a href="#" target="_blank">Report</a>
-                    </div>
                 </div>
             </div>
 
         </div>
+
+        <a class="projects-cta reveal-item delay-2" href="https://github.com/Rishabh2728" target="_blank" rel="noreferrer">View GitHub</a>
     </div>
 </div>
 
-
 <!-- CONTACT -->
-<div class="contact-page" id = "contact">
+<div class="contact-page reveal-section" id="contact">
     <div class="contact-container">
 
-        <div class="contact-header">☀︎ Contact</div>
+        <div class="contact-header reveal-item">Contact</div>
 
-        <div class="contact-title">
+        <div class="contact-title reveal-item delay-1">
             <h2>Get In Touch</h2>
             <p>
                 Feel free to reach out for opportunities, collaborations,
@@ -395,7 +397,7 @@
             </p>
         </div>
 
-        <form class="contact-form"
+        <form class="contact-form reveal-item delay-2"
               action="mailto:rishabh27kumar2006@gmail.com"
               method="post"
               enctype="text/plain">
@@ -415,8 +417,8 @@
     <div class="footer-container">
         <div class="footer-text">Created by <span>Rishabh Kumar</span></div>
         <div class="footer-socials">
-            <a href="https://github.com/Rishabh2728"><i class="fa-brands fa-github"></i></a>
-            <a href="https://linkedin.com/in/kurishabh"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Rishabh2728" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/kurishabh" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="mailto:rishabh27kumar2006@gmail.com"><i class="fa-solid fa-envelope"></i></a>
         </div>
     </div>
